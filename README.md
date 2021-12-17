@@ -1,7 +1,10 @@
 # Docker ViruClust
 
-To execute ViruClust the user must have a .tsv file with sequences' metadata from GISAID.
+Prerequisites:
+- the user must have a .tsv file with sequences' metadata from GISAID.
+- the user must have installed Docker Desktop (https://www.docker.com/products/docker-desktop)
 
+How to start ViruClust:
 1) Download docker-compose.yml
 
 2) Open terminal
