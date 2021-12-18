@@ -2,9 +2,11 @@
 
 Prerequisites:
 - the user must have a .tsv file with sequences' metadata from GISAID. Here follows the expected header with one example line: 
-| Virus name | Type | Accession ID | Collection date | Location | Additional location information | Sequence length | Host | Patient age | Gender | Clade | Pango lineage | Pangolin version | Variant | AA Substitutions | Submission date | Is reference? | Is complete? | Is high coverage? | Is low coverage? | N-Content | GC-Content |
+
+| Virus name | Type | Accession ID | Collection date | Location | Additional location information | Sequence length | Host | Patient age | Gender | Clade | Pango lineage | Pangolin version | Variant | AA Substitutions | Submission date | Is reference? | Is complete? | Is high coverage? | Is low coverage? | N-Content | GC-Content
 | --- | --- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 hCoV-19/Italy/XXX/2020 | betacoronavirus | EPI_ISL_XXXXXX | 2020-01-01 | Europe / Italy / Italy |  | 29903 | Human | unknown | unknown | G | B.1 | 2021-01-01 |  | (NSP15_A283V,NSP12_P323L,Spike_D614G) | 2020-04-17 |  | True | True |  | 0.0068649119282 | 0.379674275888 |
+
 - the user must have installed Docker Desktop (https://www.docker.com/products/docker-desktop)
 
 How to start ViruClust:
