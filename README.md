@@ -11,20 +11,19 @@ hCoV-19/Italy/XXX/2020 | betacoronavirus | EPI_ISL_XXXXXX | 2020-01-01 | Europe 
 
 
 How to start ViruClust:
-1) Download docker-compose.yml
+1) Download the `docker-compose.yml` file.
 
-2) Open terminal
+2) Open terminal.
 
-3) In terminal, go to the directory where "docker-compose.yml" is
+3) In terminal, go to the directory of the `docker-compose.yml` file.
 
-4) Run command: `FILE_PATH=/path_of_directory_of_tsv FILE_NAME=name.tsv docker-compose up`, where:
+4) Run the command: `FILE_PATH=/path_of_directory_of_tsv FILE_NAME=name.tsv docker-compose up`, where:
 
   - FILE_PATH is the path of the directory that contains the .tsv previously downloaded from GISAID.
-
   - FILE_NAME is the name of the .tsv file.
 
-5) Wait until the process finishes to insert all the data in the database (big .tsv files ~5GB could require a few hours)
+5) Wait until the process finishes to insert all the data in the database (big .tsv files ~5GB could require a few hours).
 
-6) Open in a browser: http://localhost:5000/viruclust/
+6) When the log on the terminal shows the message `* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)`, the database has been loaded and the application can be opened in a browser using the following URL: http://localhost:5000/viruclust/.
 
-The process can be stopped with CTRL+C; it can be restarted using the same or new .tsv files, requiring to rerun the whole upload.
+The process can be stopped with CTRL+C; it can be restarted using the same or a new .tsv file, requiring to rerun the whole upload.
