@@ -3,7 +3,7 @@
 Prerequisites:
 - the user must have installed Docker Desktop (https://www.docker.com/products/docker-desktop)
 
-- the user must have a .tsv file with sequences' metadata from GISAID. Here follows the expected header with one example line: 
+- the user must have a .tsv file with sequences' metadata from GISAID. This can be retrieved, e.g., by logging to https://www.gisaid.org/ and downloading the 'metadata' file from Download packages menu. Here follows the expected header with one example line: 
 
 | Virus name | Type | Accession ID | Collection date | Location | Additional location information | Sequence length | Host | Patient age | Gender | Clade | Pango lineage | Pangolin version | Variant | AA Substitutions | Submission date | Is reference? | Is complete? | Is high coverage? | Is low coverage? | N-Content | GC-Content
 | --- | --- | --- | --- |--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
