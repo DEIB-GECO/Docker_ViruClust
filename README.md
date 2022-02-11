@@ -27,3 +27,7 @@ How to start ViruClust:
 6) When the log on the terminal shows the message `* Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)`, the database has been loaded and the application can be opened in a browser using the following URL: http://localhost:5000/viruclust/.
 
 The process can be stopped with CTRL+C; it can be restarted using the same or a new .tsv file, requiring to rerun the whole upload.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+**A WIKI of the tool is available at https://github.com/DEIB-GECO/ViruClust/wiki**
